@@ -1,6 +1,7 @@
 package com.company;
 
 import com.company.basics.BigIntegerMath;
+import com.company.basics.IntroToSubStrings;
 import com.company.basics.PrimalityTest;
 import com.company.basics.StacksParanthesis;
 
@@ -10,6 +11,7 @@ public class Main {
 	// write your code here
         //BigIntegerMath.AddBigIntegersAndPrint();
         //PrimalityTest.IsBigIntegerPrime();
-        StacksParanthesis.PerformCheck();
+        //StacksParanthesis.PerformCheck();
+        IntroToSubStrings.PrintSubString();
     }
 }
