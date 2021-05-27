@@ -1,17 +1,13 @@
 package com.company;
 
-import com.company.basics.BigIntegerMath;
-import com.company.basics.IntroToSubStrings;
-import com.company.basics.PrimalityTest;
-import com.company.basics.StacksParanthesis;
+import com.company.basics.*;
+
+import java.util.HashMap;
 
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        //BigIntegerMath.AddBigIntegersAndPrint();
-        //PrimalityTest.IsBigIntegerPrime();
-        //StacksParanthesis.PerformCheck();
-        IntroToSubStrings.PrintSubString();
+        // write your code here
+        UtilityIntro.StudentDBList();
     }
 }
