@@ -1,9 +1,7 @@
 package com.company.basics;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.text.NumberFormat;
+import java.util.*;
 
 public class UtilityIntro {
 
@@ -38,6 +36,22 @@ public class UtilityIntro {
             }
 
         }
+
+    }
+
+    public static void Print()
+    {
+        Scanner scanner = new Scanner(System.in);
+        Double payment = scanner.nextDouble();
+
+        NumberFormat nf = NumberFormat.getCurrencyInstance(Locale.US);
+
+        System.out.println("US: " + nf.format(payment));
+
+        Locale indian = new Locale("en", "IN");
+        NumberFormat indianFormat = NumberFormat.getCurrencyInstance(indian);
+
+        System.out.println("India: " + indianFormat.format(payment));
 
     }
 }
